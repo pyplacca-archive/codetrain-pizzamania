@@ -1,0 +1,70 @@
+:root {
+    --page-red: rgb(200, 0, 0);
+}
+
+.nav-default ,
+.page-footer {
+    background-color: var(--page-red);
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:active,
+.collapse .nav li a,
+.page-footer {
+    color: #fff
+}
+
+.collapse .nav li .active {
+    background-color: #fff;
+    color: var(--page-red);
+    font-weight: bold;
+}
+
+.collapse .nav li a:hover:not(.active) {
+    /* transition: 410ms all ease; */
+    background-color: rgba(182, 182, 182, 0.657);
+
+}
+
+.header-carousel .item {
+    max-height: calc(100vh - 50px - 80px);
+}
+
+.header-carousel > .item > .carousel-caption > p {
+    font-size: 1.2em;
+}
+
+.about-pizza, .pizza-types {
+    margin: 3rem auto
+}
+
+.about-pizza h1,
+.pizza-types h1 {
+    color: var(--page-red);
+    margin-bottom: 3rem
+
+}
+
+.about-pizza .about-caption {
+    margin-top: 0px;
+    padding: 0 0 1rem 0
+}
+
+.about-pizza .about-paragraph span {
+    color: var(--page-red)
+}
+
+.about-pizza img {
+    margin-bottom: 1.2em
+}
+
+.page-footer .row p {
+    margin:0;
+    padding: 1.2em 0
+}
